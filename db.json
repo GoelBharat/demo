@@ -1,21 +1,21 @@
 {
 	"orders": [
     { 
-      "orderId": 1, 
+      "id": 1, 
       "orderDate": "10/10/2020", 
       "email": "test@test.com", 
       "amount": 123, 
       "status": "shipped"
     },
     { 
-      "orderId": 2, 
+      "id": 2, 
       "orderDate": "10/11/2020", 
       "email": "test@test.com", 
       "amount": 400, 
       "status": "cancelled"
     },
     { 
-      "orderId": 3, 
+      "id": 3, 
       "orderDate": "10/12/2020", 
       "email": "test@test.com", 
       "amount": 298, 
