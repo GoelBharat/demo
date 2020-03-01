@@ -1,14 +1,14 @@
 {
 	"orders": [
     { 
-      "orderId": 1, 
+      "id": 1, 
       "orderDate": "10/10/2020", 
       "email": "test@test.com", 
       "amount": 123, 
       "status": "shipped",
       "items" : [
         {
-          "itemId": 1,
+          "id": 1,
           "name": "item1",
           "price": 20,
           "discount": 10,
@@ -18,14 +18,14 @@
       ] 
     },
     { 
-      "orderId": 2, 
+      "id": 2, 
       "orderDate": "10/11/2020", 
       "email": "test@test.com", 
       "amount": 400, 
       "status": "cancelled",
       "items" : [
         {
-          "itemId": 2,
+          "id": 1,
           "name": "item2",
           "price": 20,
           "discount": 10,
@@ -33,7 +33,7 @@
           "tax": 10
         },
         {
-          "itemId": 1,
+          "id": 2,
           "name": "item2",
           "price": 20,
           "discount": 20,
@@ -43,14 +43,14 @@
       ] 
     },
     { 
-      "orderId": 3, 
+      "id": 3, 
       "orderDate": "10/12/2020", 
       "email": "test@test.com", 
       "amount": 298, 
       "status": "shipped",
       "items" : [
         {
-          "itemId": 1,
+          "id": 1,
           "name": "item1",
           "price": 20,
           "discount": 10,
@@ -58,7 +58,7 @@
           "tax": 0
         },
         {
-          "itemId": 4,
+          "id": 2,
           "name": "item4",
           "price": 8,
           "discount": 0,
